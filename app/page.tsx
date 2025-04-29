@@ -22,6 +22,42 @@ export default function HomePage() {
           Get Started
         </Link>
       </section>
+  <section className="py-12 px-6 max-w-6xl mx-auto">
+  <h2 className="text-3xl font-semibold text-center text-blue-700 mb-10">What KVDA Offers</h2>
+  <div className="grid md:grid-cols-3 gap-8 text-center">
+    
+    <div className="p-4 bg-white rounded-xl shadow-md hover:shadow-xl hover:scale-[1.02] transition-transform duration-300 ease-in-out">
+      <img src="/assets/img/guidee.jpg" alt="Guidance" className="rounded-md mb-4 h-48 w-full object-cover" />
+      <h3 className="text-lg font-semibold text-blue-600">Guidance & Mentorship</h3>
+      <p className="text-gray-600">Our experienced staff guide students through real-life work challenges, helping them grow professionally.</p>
+    </div>
+
+    <div className="p-4 bg-white rounded-xl shadow-md hover:shadow-xl hover:scale-[1.02] transition-transform duration-300 ease-in-out">
+      <img src="/assets/img/kvda.jpg" alt="KVDA Office" className="rounded-md mb-4 h-48 w-full object-cover" />
+      <h3 className="text-lg font-semibold text-blue-600">Real Workplace Exposure</h3>
+      <p className="text-gray-600">At KVDA headquarters, students experience actual public service work in a professional setting.</p>
+    </div>
+
+    <div className="p-4 bg-white rounded-xl shadow-md hover:shadow-xl hover:scale-[1.02] transition-transform duration-300 ease-in-out">
+      <img src="/assets/img/team.jpg" alt="Teamwork" className="rounded-md mb-4 h-48 w-full object-cover" />
+      <h3 className="text-lg font-semibold text-blue-600">Team Collaboration</h3>
+      <p className="text-gray-600">We value teamwork. Students work together on impactful tasks and build real professional connections.</p>
+    </div>
+
+    <div className="p-4 bg-white rounded-xl shadow-md hover:shadow-xl hover:scale-[1.02] transition-transform duration-300 ease-in-out">
+      <img src="/assets/img/tech.webp" alt="Technology" className="rounded-md mb-4 h-48 w-full object-cover" />
+      <h3 className="text-lg font-semibold text-blue-600">Tech-Friendly Environment</h3>
+      <p className="text-gray-600">We equip our interns with digital tools and modern software for a competitive edge in the market.</p>
+    </div>
+
+    <div className="p-4 bg-white rounded-xl shadow-md hover:shadow-xl hover:scale-[1.02] transition-transform duration-300 ease-in-out md:col-span-3 lg:col-span-1 lg:col-start-2">
+      <img src="/assets/img/work.png" alt="Workplace" className="rounded-md mb-4 h-48 w-full object-cover" />
+      <h3 className="text-lg font-semibold text-blue-600">Practical Work Experience</h3>
+      <p className="text-gray-600">KVDA offers real assignments that simulate job expectations and sharpen hands-on skills.</p>
+    </div>
+
+  </div>
+</section>
 
       {/* Benefits Section */}
       <section className="py-12 px-6 max-w-6xl mx-auto">
