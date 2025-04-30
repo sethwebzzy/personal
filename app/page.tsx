@@ -27,7 +27,7 @@ export default function HomePage() {
   <div className="grid md:grid-cols-3 gap-8 text-center">
     
     <div className="p-4 bg-white rounded-xl shadow-md hover:shadow-xl hover:scale-[1.02] transition-transform duration-300 ease-in-out">
-      <img src="/assets/img/guidee.jpg" alt="Guidance" className="rounded-md mb-4 h-48 w-full object-cover" />
+      <img src="/assets/img/guiee.jpg" alt="Guidance" className="rounded-md mb-4 h-48 w-full object-cover" />
       <h3 className="text-lg font-semibold text-blue-600">Guidance & Mentorship</h3>
       <p className="text-gray-600">Our experienced staff guide students through real-life work challenges, helping them grow professionally.</p>
     </div>
